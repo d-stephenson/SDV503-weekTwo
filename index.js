@@ -30,3 +30,18 @@ console.log(timeGreeting());*/
 
   console.log (ten * ten)*/
 
+
+function age(i) {
+    if (i < 16) {
+        return 'Sorry, you can\'t drive!!!';
+    }   else if (i == 16) {
+        return 'Congrats! Your time has come, get behind the wheel!';
+    }   else {
+        return 'Sorry, your age means you\'ve probably been driving for a while!!';
+    }
+}
+
+i = 7
+
+console.log(age(i))
+
