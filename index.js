@@ -3,7 +3,7 @@ let b = 1 + (a = 2);
 
 console.log(b);*/
 
-function timeGreeting() {
+/*function timeGreeting() {
     var time = new Date().getHours();
     var greeting;
     if (time < 19) {
@@ -13,4 +13,20 @@ function timeGreeting() {
     }
    return greeting
   }
-console.log(timeGreeting());
+
+console.log(timeGreeting());*/
+
+/*function testNum(a) {
+    if (a > 10 && a < 100) {
+      return "positive";
+    } else {
+      return "NOT positive";
+    }
+  }
+  
+  console.log(testNum(29));*/
+
+  /*let ten = 10;
+
+  console.log (ten * ten)*/
+
