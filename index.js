@@ -139,8 +139,11 @@ let x = 1;
 console.log(x);
 console.log(10 * ++x);
 console.log(x);
+// Explain what will line 141 console log and why?
 
-console.log("Post-Increment");
+Answer: It will console.log '2' because only the post-increment (++) affects the value of 'x', the '10 x' is not a value but a calculation within the console.log and does not affect the value of x;
+
+console.log("Post-Increment")
 
 let y = 1;
 console.log(y);
