@@ -139,7 +139,7 @@ let x = 1;
 console.log(x);
 console.log(10 * ++x);
 console.log(x);
-
+// Explain what will line 141 console log and why?
 console.log("Post-Increment");
 
 let y = 1;
