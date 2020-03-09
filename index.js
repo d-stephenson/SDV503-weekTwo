@@ -87,6 +87,7 @@ console.log(x);*/
 
 let x = 10;
 let y = x;
+x = 20;
 
 /*console.log("Pre - Increment");
 
@@ -111,3 +112,6 @@ console.log("Post - Increment");
 y = x--;
 console.log(x);
 console.log(y);
+
+
+
