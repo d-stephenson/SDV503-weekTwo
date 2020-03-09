@@ -45,7 +45,7 @@ var i = 7
 
 console.log(age(i))*/
 
-let x = 10;
+/*let x = 10;
 let y = 5;
 
 console.log(x + y);
@@ -53,4 +53,15 @@ console.log(x - y);
 console.log(x * y);
 console.log(x / y);
 console.log(x % y);
-console.log(x ** y);
+console.log(x ** y);*/
+
+let x = 10;
+
+console.log(x);
+console.log(++x);
+console.log(x);
+console.log(++x);
+console.log(x);
+console.log(++x);
+console.log(x);
+
