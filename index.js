@@ -151,7 +151,7 @@ console.log(y);*/
     console.log(i)
 }*/
 
-let a = "Hello, ";
+/*let a = "Hello, ";
 let b = "World!";
 console.log(a + b);
 
@@ -161,7 +161,13 @@ let e = c + d;
 console.log(e);
 
 let f = "My name is " + "String101";
-console.log(f);
+console.log(f);*/
+
+const firstWord = "Hello"
+const secondWord = "World"
+
+console.log(firstWord + " " + secondWord)
+console.log(`${firstWord} ${secondWord}`);
 
 
 
