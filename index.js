@@ -31,7 +31,7 @@ console.log(timeGreeting());*/
   console.log (ten * ten)*/
 
 
-function age(i) {
+/*function age(i) {
     if (i < 16) {
         return 'Sorry, you can\'t drive!!!';
     }   else if (i == 16) {
@@ -41,7 +41,16 @@ function age(i) {
     }
 }
 
-i = 7
+var i = 7
 
-console.log(age(i))
+console.log(age(i))*/
 
+let x = 10;
+let y = 5;
+
+console.log(x + y);
+console.log(x - y);
+console.log(x * y);
+console.log(x / y);
+console.log(x % y);
+console.log(x ** y);
