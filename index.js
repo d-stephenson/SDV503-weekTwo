@@ -172,7 +172,7 @@ const secondWord = "World"
 console.log(firstWord + " " + secondWord)
 console.log(`${firstWord} ${secondWord}`);*/
 
-/*console.log(true || true);
+console.log(true || true);
 console.log(true || false);
 console.log(false || true);
 console.log(false || false);
@@ -181,6 +181,11 @@ console.log(1 || 1);
 console.log(1 || 0);
 console.log(0 || 1);
 console.log(0 || 0);
+
+console.log(true && true);
+console.log(true && false);
+console.log(false && true);
+console.log(false && false);
 
 console.log(1 && 1);
 console.log(1 && 0);
@@ -199,13 +204,206 @@ console.log(1 || false);
 console.log(true || 1);
 console.log(false || 1);
 console.log(false || 0);
-console.log(0 || 0);*/
+console.log(0 || 0);
 
+console.log(10 == 5);
+console.log(10 != 5);
+console.log(10 < 5);
+console.log(10 > 5);
+console.log(10 <= 5);
+console.log(10 >= 5);
 
+console.log(10 == "5");
+console.log(10 == "10");
+console.log(10 != "5");
+console.log(10 != "10");
+console.log(10 < "5");
+console.log(10 < "10");
+console.log(10 > "5");
+console.log(10 > "10");
+console.log(10 <= "5");
+console.log(10 <= "10");
+console.log(10 >= "5");
+console.log(10 >= "10");
 
+console.log(true == 1);
+console.log(true == "1");
+console.log(true == 0);
+console.log(false == 1);
+console.log(false == 0);
+console.log(false == "0");
 
+console.log(true != 1);
+console.log(true != "1");
+console.log(true != 0);
+console.log(false != 1);
+console.log(false != 0);
+console.log(false != "0");
 
+console.log("A" == "A");
+console.log("a" == "a");
+
+console.log("Z" > "A");
+
+console.log("Raise" > "Race");
+console.log("Break" > "Brake");
+console.log("Lose" < "Loose");
+
+console.log(1 == "1");
+console.log(1 == true);
+
+console.log(0 == false);
+console.log("" == false);
+
+console.log(1 == "1");
+console.log(1 === "1");
+
+console.log(1 == true);
+console.log(1 === true);
+
+console.log(0 == false);
+console.log(0 === false);
+
+console.log(1 != "1");
+console.log(1 !== "1");
+
+console.log(1 != true);
+console.log(1 !== true);
+
+console.log(0 != false);
+console.log(0 !== false);
+
+console.log(null == 0);
+console.log(null === 0);
+console.log(null > 0);
+console.log(null < 0);
+console.log(null >= 0);
+
+console.log(undefined == null);
+console.log(undefined === null);
+
+console.log(undefined == 0);
+console.log(undefined === 0);
+console.log(undefined > 0);
+console.log(undefined == 0);
+
+console.log(null + 1);
+console.log(undefined > 0);
+console.log(undefined + 1);
+
+console.log(true || true);
+console.log(true || false);
+console.log(false || true);
+console.log(false || false);
+
+console.log(true || 0);
+console.log(1 || false);
+console.log(true || 1);
+console.log(false || 1);
+console.log(false|| 0);
+console.log(0 || 0);
+
+console.log(true || 1);
+console.log(1 || true);
+console.log(0 || false);
+console.log(false || 0);
+console.log(true || 0);
+console.log(1 || false);
+console.log(0 || true);
+
+console.log(0 || 1 || true);
+console.log(0 || true || 1);
+console.log(false || 0 || 1);
+
+console.log(1 || null);
+console.log(0 || null);
+console.log(true || null);
+console.log(0 || "David");
+
+console.log(null || undefined);
+console.log(undefined || null);
+console.log(undefined || 0);
+console.log(undefined || true);
+console.log(1 || undefined);
+
+console.log(0 || null || undefined || false);
+
+console.log("" || true);
+
+console.log(2 || true);
+console.log(true || 2);
+console.log(5 || false);
+console.log(false || 10);
+
+console.log("David" || 0);
+console.log("David" || false);
+console.log("David" || 10);
+
+console.log("" || 0 || 100);
+
+console.log(-1 || true);
+console.log(-1 || false);
+console.log(false || -1);
+
+let x;
+true || (x = 10);
+console.log(x);
+
+let y;
+false || (y = 10);
+console.log(y);
+
+console.log(true && 1);
+console.log(1 && true);
+console.log(0 && false);
+console.log(false && 0);
+console.log(true && 0);
+console.log(1 && false);
+console.log(0 && true);
+
+console.log(0 && 1 && true);
+console.log(true && 1 && 0);
+console.log(1 && 0 && true);
+console.log(0 && true && false);
+console.log(false && true && 0);
+console.log(true && 0 && false);
+
+console.log(true && null);
+console.log(0 && null);
+console.log(null && undefined);
+console.log(0 && undefined);
+console.log(undefined && 0);
+console.log(1 && undefined);
  
+console.log(true && 1 && "David");
+console.log(1 && true && "");
+console.log(true && 1 && undefined && null);
+
+console.log(!true);
+console.log(!false);
+
+console.log(!1);
+console.log(!0);
+
+console.log(!"David");
+console.log(!10);
+
+console.log(!!true);
+console.log(!!false);
+
+console.log(!!1);
+console.log(!!0);
+
+console.log(!!"David");
+console.log(!!10);
+
+console.log(true);
+console.log(!true);
+console.log(!!true);
+
+
+
+
 
 
 
